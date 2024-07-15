@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma, Arial;
+}
+.data{
+    width: 600px;
+    margin: 40px auto;
+    background-color: #eee;
+    padding: 20px;
+}
+.data input{
+    border: none;
+    padding: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    font-size: 20px;
+
+}
+.data input:focus{
+    outline: none;
+}
+.buttons {
+    display:  flex;
+    justify-content: space-between;
+}
+.buttons span{
+    background-color: #009688;
+    text-align: center;
+    color: white;
+    padding: 4px 10px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.result{
+    background: #fff;
+    padding: 20px;
+    margin-top: 15px;
+    border: 2px dashed #eee;
+    text-align: center;
+}
+.result span span{
+ font-weight: bold;
+ color: #009688;
+ 
+}
